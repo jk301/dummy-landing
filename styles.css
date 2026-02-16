@@ -80,13 +80,20 @@ header, .main-page {
 }
 
 button {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
     background-color: #3882f6;
     border-radius: 8px;
-    padding: 10px 40px;
-    font-size: large;
     color: white;
+}
+
+.main-sign-button {
     font-weight: bold;
     border: transparent;
+    padding: 10px 40px;
+    font-size: large;
 }
 
 /* main-page end*/
@@ -163,3 +170,56 @@ button {
 }
 
 /* quote */
+
+/* signup */
+
+.signup {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    
+}
+
+.sign-block {
+    padding: 100px;
+    background-color:#3882f6;
+    display: flex;
+    gap: 80px;
+    border-radius: 10px;
+}
+
+.sign-text-block {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+.sign-text-bold {
+    font-weight: 900;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.sign-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-button {
+    font-weight: bold;
+    border: transparent;
+    padding: 10px 40px;
+    font-size: large;    
+    border: solid #ffffff;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+.button-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* signup */
