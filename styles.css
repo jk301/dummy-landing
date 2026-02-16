@@ -132,6 +132,7 @@ button {
 }
 
 .ill-text{
+    text-align: center;
     font-size: 18px;
     color: rgb(85, 85, 85);
 }
@@ -223,3 +224,17 @@ button {
 }
 
 /* signup */
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* footer end */
